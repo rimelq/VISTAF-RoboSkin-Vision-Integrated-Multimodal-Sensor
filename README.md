@@ -1,7 +1,6 @@
 # VISTAF RoboSkin: Vision-Integrated Multimodal Sensing
 
-**_Robotics Semester Project, CREATE Lab, EPFL_
-**
+**_Robotics Semester Project, CREATE Lab, EPFL_**
 
 A compact vision-based soft sensing skin that jointly estimates **force**, **shape**, and **temperature** from a single RGB camera view.
 
