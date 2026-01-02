@@ -8,7 +8,7 @@ A compact vision-based soft sensing skin that jointly estimates **force**, **sha
 
 For detailed methodology, fabrication procedures, and complete calibration results, see the full project report in `docs/`.
 
-![System Overview](docs/system_overview.png)
+![System Overview](Visuals_README/Setup final 1.png)
 
 ## Overview
 
@@ -20,7 +20,7 @@ VISTAF RoboSkin uses a thin (0.6 mm) silicone grating with embedded thermochromi
 
 This enables dense depth/force and temperature maps without electronics embedded in the skin.
 
-![Multimodal Demo](docs/multimodal_demo.png)
+![Multimodal Demo](Visuals_README/Final_demos_page-0005.jpg)
 *Demo: A heated object pressed into the sensor reconstructs deformation (heightmap + force) and temperature (colormap).*
 
 ## How It Works
