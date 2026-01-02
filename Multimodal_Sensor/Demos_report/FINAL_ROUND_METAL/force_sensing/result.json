@@ -1,0 +1,24 @@
+{
+  "reference_path": "./Force/FINAL_reference.jpg",
+  "deformed_path": "./Final_demos_images/FINAL_ROUND_METAL.jpg",
+  "output_dir": "./Multimodal_Sensor/run_output/session_20260101_195157/force_sensing",
+  "ftp_output_dir": "./Multimodal_Sensor/run_output/session_20260101_195157/force_sensing/ftp_run",
+  "grating_pitch_mm": 2.0,
+  "depth_eps_mm": 0.01,
+  "estimated_grating_period_px": 65.83619546657023,
+  "mm_per_px": 0.030378426119953176,
+  "volume_cm3": 0.21950436806104176,
+  "contact_area_mm2": 343.2434499762836,
+  "max_depth_mm": 1.7482119798660278,
+  "force_N": 12.169759841071881,
+  "force_model": {
+    "type": "growth",
+    "params": {
+      "a": 1.6197727931063521,
+      "b": 9.756634595755994
+    },
+    "equation": "F = 1.61977 * (exp(9.75663 * V) - 1)",
+    "rmse": 6.962172475750385,
+    "r2": 0.7744899927812314
+  }
+}

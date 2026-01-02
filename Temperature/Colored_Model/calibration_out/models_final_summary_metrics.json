@@ -1,0 +1,93 @@
+{
+  "output_dir": "/home/rimelq/Desktop/EPFL/0COURS/MA3/Semester project/Code_Dataset_Final/Temperature/Colored_Model/calibration_out",
+  "use_features": [
+    "L",
+    "a",
+    "b"
+  ],
+  "frames_per_temp": 5,
+  "poly_degree_candidates": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "auto_select_degree": true,
+  "fit_temp_range": [
+    20.0,
+    33.0
+  ],
+  "use_isotonic_calibration": true,
+  "huber": {
+    "epsilon": 1.2,
+    "alpha": 1e-06,
+    "max_iter": 10000
+  },
+  "models_final": {
+    "heating": {
+      "degree": 2,
+      "equation": "T =\n  13.848239 + (13.847654)*1 + (5.2531972)*L + (1.5862391)*a + (0.5783954)*b + (-4.4905823)*L^2 + (-4.6004243)*L*a\n  (2.3772648)*L*b + (-0.81142852)*a^2 + (0.75382207)*a*b + (0.03512124)*b^2",
+      "metrics_frames": {
+        "n": 70,
+        "rmse_C": 0.0,
+        "mae_C": 0.0,
+        "r2": 1.0,
+        "max_abs_err_C": 0.0,
+        "p95_abs_err_C": 0.0
+      },
+      "metrics_means": {
+        "n": 14,
+        "rmse_C": 0.0,
+        "mae_C": 0.0,
+        "r2": 1.0,
+        "max_abs_err_C": 0.0,
+        "p95_abs_err_C": 0.0
+      }
+    },
+    "cooling": {
+      "degree": 1,
+      "equation": "T =\n  13.230729 + (13.230712)*1 + (4.9260004)*L + (1.0703982)*a + (-0.81584244)*b",
+      "metrics_frames": {
+        "n": 70,
+        "rmse_C": 0.8552359741197579,
+        "mae_C": 0.46285714285714286,
+        "r2": 0.954989010989011,
+        "max_abs_err_C": 2.0,
+        "p95_abs_err_C": 2.0
+      },
+      "metrics_means": {
+        "n": 14,
+        "rmse_C": 0.8500084033198058,
+        "mae_C": 0.46285714285714263,
+        "r2": 0.9555375824175825,
+        "max_abs_err_C": 2.0,
+        "p95_abs_err_C": 2.0
+      }
+    },
+    "global": {
+      "degree": 2,
+      "equation": "T =\n  13.393386 + (13.393225)*1 + (7.948437)*L + (4.7591152)*a + (1.8206048)*b + (-10.374143)*L^2 + (-15.182861)*L*a\n  (3.4476021)*L*b + (-3.8808357)*a^2 + (4.6297725)*a*b + (1.1042786)*b^2",
+      "metrics_frames": {
+        "n": 140,
+        "rmse_C": 0.7068541979382007,
+        "mae_C": 0.4992857142857142,
+        "r2": 0.9692527472527472,
+        "max_abs_err_C": 1.75,
+        "p95_abs_err_C": 1.6000000000000014
+      },
+      "metrics_means": {
+        "n": 14,
+        "rmse_C": 0.4370350136712196,
+        "mae_C": 0.38023809523809476,
+        "r2": 0.9882461782661782,
+        "max_abs_err_C": 0.8000000000000043,
+        "p95_abs_err_C": 0.7675000000000015
+      }
+    }
+  },
+  "plot_forward_trend": {
+    "stat": "median",
+    "smooth_window": 3,
+    "interp_points": 400
+  }
+}

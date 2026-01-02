@@ -1,0 +1,2 @@
+reference_path,deformed_path,volume_cm3,force_N,contact_area_mm2,max_depth_mm,mm_per_px,estimated_grating_period_px,ftp_output_dir,force_model_type
+./Force/FINAL_reference.jpg,./Final_demos_images/FINAL_TEMP_DEMO.jpg,0.025062434996284515,0.4487007336937975,295.5663137896381,0.26682496070861816,0.030378426119953176,65.83619546657023,./Multimodal_Sensor/run_output/session_20260101_195240/force_sensing/ftp_run,growth

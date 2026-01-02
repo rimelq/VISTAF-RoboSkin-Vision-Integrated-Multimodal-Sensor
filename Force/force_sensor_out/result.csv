@@ -1,0 +1,2 @@
+reference_path,deformed_path,volume_cm3,force_N,contact_area_mm2,max_depth_mm,mm_per_px,estimated_grating_period_px,ftp_output_dir,force_model_type
+./Force/FINAL_reference.jpg,./Force/Final_demos/FFFFF_deformed.jpg,0.15452928236587474,5.695553435044693,271.75127834004024,1.5117931365966797,0.030378426119953176,65.83619546657023,./Force/force_sensor_out/ftp_run,growth

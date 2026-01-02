@@ -1,0 +1,35 @@
+{
+  "reference_path": "./Force/FINAL_reference.jpg",
+  "deformed_dir": "./Force/Phase_to_height",
+  "output_dir": "./Force/Phase_to_height/calibration_out",
+  "use_negated_height_for_fit": true,
+  "x_definition": "x = -min_height_unitless",
+  "best_model": {
+    "type": "hinge_saturating",
+    "params": {
+      "a": 2.0826494996246554,
+      "b": 4.20441143052732,
+      "c": -1.767844217125454e-09
+    },
+    "equation": "y = 2.08265 * ((1-exp(-4.20441*max(x--1.76784e-09,0))) - (1-exp(-4.20441*max(0--1.76784e-09,0))))",
+    "r2": 0.9988112914064289,
+    "rmse": 0.0021714675228534657,
+    "sse": 1.886108481122947e-05,
+    "n": 4
+  },
+  "candidates_summary": [
+    {
+      "type": "hinge_saturating",
+      "rmse": 0.0021714675228534657,
+      "r2": 0.9988112914064289,
+      "sse": 1.886108481122947e-05
+    },
+    {
+      "type": "growth",
+      "rmse": 0.5392678620013561,
+      "r2": -72.31246190657768,
+      "sse": 1.1632393079500545
+    }
+  ],
+  "interpretation": "This model maps unitless heightmap values to mm. If use_negated_height_for_fit=true, it uses x=-height_unitless."
+}

@@ -1,0 +1,61 @@
+{
+  "reference_path": "./Force/FINAL_reference.jpg",
+  "deformed_dir": "./Force/Height_to_force/Loading",
+  "output_dir": "./Force/Height_to_force/calibration_out",
+  "volume_definition": "V_cm3 = sum(depth_mm * (mm_per_px^2)) / 1000 over depth>0.01mm in ROI",
+  "grating_pitch_mm": 2.0,
+  "depth_eps_mm": 0.01,
+  "anchor_origin": true,
+  "origin_weight": 20,
+  "best_model": {
+    "type": "growth",
+    "params": {
+      "a": 1.6197727931063521,
+      "b": 9.756634595755994
+    },
+    "equation": "F = 1.61977 * (exp(9.75663 * V) - 1)",
+    "rmse": 6.962172475750385,
+    "r2": 0.7744899927812314,
+    "sse": 4604.825330299143,
+    "n_fit": 95,
+    "n_samples": 75
+  },
+  "candidates_summary": [
+    {
+      "type": "growth",
+      "rmse": 6.962172475750385,
+      "r2": 0.7744899927812314,
+      "sse": 4604.825330299143
+    },
+    {
+      "type": "poly2",
+      "rmse": 7.070082443370974,
+      "r2": 0.7674452475634412,
+      "sse": 4748.676246825936
+    },
+    {
+      "type": "hinge_saturating",
+      "rmse": 7.2478217348638685,
+      "r2": 0.755605589519466,
+      "sse": 4990.437390534685
+    },
+    {
+      "type": "linear",
+      "rmse": 8.513029543333214,
+      "r2": 0.6628334019286839,
+      "sse": 6884.8088405380895
+    },
+    {
+      "type": "linear0",
+      "rmse": 8.725673673072043,
+      "r2": 0.6457790879679841,
+      "sse": 7233.051199649543
+    },
+    {
+      "type": "sat_exp",
+      "rmse": 8.725684868429832,
+      "r2": 0.6457781790106842,
+      "sse": 7233.069760198807
+    }
+  ]
+}

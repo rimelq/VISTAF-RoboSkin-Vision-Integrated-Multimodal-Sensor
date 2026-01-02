@@ -1,0 +1,5 @@
+file,depth_mm,min_height_unitless,min_x,min_y,heightmap_figure
+Height_0.5mm_deformed.jpg,1.90935,-0.5882240533828735,703,514,Height_0.5mm_deformed/heightmap.png
+Height_1mm_deformed.jpg,1.9477,-0.6571923494338989,607,524,Height_1mm_deformed/heightmap.png
+Height_1.5mm_deformed.jpg,2.01821,-0.8232495188713074,729,537,Height_1.5mm_deformed/heightmap.png
+Height_2mm_deformed.jpg,2.07255,-1.2602728605270386,722,588,Height_2mm_deformed/heightmap.png
