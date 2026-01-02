@@ -66,15 +66,28 @@ pip install numpy opencv-python matplotlib scikit-image scikit-learn scipy jobli
 
 ## Repository Structure
 ```
-├── multimodal_sensor.py            # Main entry point - run this!
-├── force_sensor.py                 # Force sensing module
-├── temperature_sensor.py           # Temperature sensing module
-├── shape_ftp.py                    # FTP core pipeline
-├── phase_to_height.py              # Phase-to-height calibration
-├── height_to_force.py              # Height-to-force calibration
-├── temperature_color_model.py      # Colored TLC temperature calibration
-├── temperature_black_model.py      # Black TLC temperature calibration
-└── Final_demos_images/             # Demo input images
+├── CAD/                              # CAD files for the setup
+├── Code/                             # All source code (Python + notebooks)
+│   ├── multimodal_sensor.py          # Main entry point (run multimodal inference)
+│   ├── force_sensor.py               # Force sensing module
+│   ├── temperature_sensor.py         # Temperature sensing module
+│   ├── shape_ftp.py                  # FTP core pipeline
+│   ├── phase_to_height.py            # Phase→height calibration
+│   ├── height_to_force.py            # Height/volume→force calibration
+│   ├── temperature_color_model.py    # Colored TLC temperature calibration
+│   ├── temperature_black_model.py    # Black TLC temperature calibration
+│   ├── pretest_25to30.py             # Temperature pretest (25→30 °C)
+│   ├── pretest_30to31.py             # Temperature pretest (30→31 °C)
+│   ├── michelson.ipynb               # Michelson contrast / TLC selection notebook
+│   └── Arduino LED code/             # Arduino code for LED ring (if used)
+├── Final_demos_images/               # Demo input images (used in report/README)
+├── Force/                            # Force datasets + calibration outputs
+├── Temperature/                      # Temperature datasets + calibration outputs
+├── Multimodal_Sensor/                # Multimodal run outputs (session folders)
+├── Visuals_README/                   # Figures used in README.md
+├── camera_config.gpfl                # Camera configuration
+├── Rim_El_Qabli_VISTAF_Report.pdf    # Full project report (PDF)
+└── README.md                         # This file
 ```
 
 ### Running the Multimodal Sensor
