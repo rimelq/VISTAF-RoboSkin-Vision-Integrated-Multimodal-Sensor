@@ -78,7 +78,7 @@ pip install numpy opencv-python matplotlib scikit-image scikit-learn scipy jobli
 │   ├── pretest_25to30.py             # Temperature pretest (25→30 °C)
 │   ├── pretest_30to31.py             # Temperature pretest (30→31 °C)
 │   ├── michelson.ipynb               # Michelson contrast / TLC selection notebook
-│   └── Arduino LED code/             # Arduino code for LED ring (if used)
+│   └── Arduino LED code/             # Arduino code for LED ring
 ├── Final_demos_images/               # Demo input images (used in report/README)
 ├── Force/                            # Force datasets + calibration outputs
 ├── Temperature/                      # Temperature datasets + calibration outputs
