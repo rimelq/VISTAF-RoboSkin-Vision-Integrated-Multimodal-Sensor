@@ -1,14 +1,16 @@
 # VISTAF RoboSkin: Vision-Integrated Multimodal Sensing
 
+**_Robotics Semester Project, CREATE Lab, EPFL_
+**
 A compact vision-based soft sensing skin that jointly estimates **force**, **shape**, and **temperature** from a single RGB camera view.
 
+- **Student**: Rim El Qabli (Robotics MSc, EPFL)
 - **Supervisor**: Benhui Dai (CREATE Lab, EPFL)
 - **Professor**: Josie Hughes (CREATE Lab, EPFL)
-- **CREATE Lab** for prototyping resources
 
 For detailed methodology, fabrication procedures, and complete calibration results, see the full project report in `docs/`.
 
-![System Overview](Visuals_README/Setup final 1.png)
+![System Overview](Visuals_README/Setup_final_1.png)
 
 ## Overview
 
